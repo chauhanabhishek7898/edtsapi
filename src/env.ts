@@ -12,16 +12,14 @@
 //     },
 // }
  
+
 export const sqlConnection = {
     user: 'sle',
     password: 'ciplsurvey@2019',
     server: '40.127.190.1',
-    // port: 1433,
+    port: 1433,
     database: 'EdtsDubai2024',
     options: {
-        encrypt: true,
-        trustServerCertificate: true,
-        integratedSecurity: false, // Windows Authentication के लिए
-        // enableArithAbort: true,
+        encrypt: false, // Enable this if using Azure SQL Database
     },
 }
