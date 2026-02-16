@@ -17,7 +17,7 @@ export const sqlConnection = {
     password: 'ciplsurvey@2019',
     server: '40.127.190.1',
     // port: 1433,
-    database: 'Bacardi',
+    database: 'EdtsDubai2024',
     options: {
         encrypt: true,
         trustServerCertificate: true,
